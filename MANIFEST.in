@@ -1,0 +1,10 @@
+include ez_setup.py
+include LICENSE
+include AUTHORS
+include COPYING
+include README.rst
+recursive-include import_utils *
+recursive-exclude import_utils *.pyc
+recursive-exclude .git
+prune dist
+prune build
